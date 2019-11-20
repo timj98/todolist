@@ -9,7 +9,6 @@ class TodoListViewSet(viewsets.ModelViewSet):
     """
     Viewset for model todo that will create CRUD in the most efficient manner
     """
-    #queryset = Todo.objects.all()
     serializer_class = TodoListSerializer
     permission_classes = [IsOwnerOrReadOnly]
 
