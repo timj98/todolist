@@ -16,3 +16,8 @@ xcuserdata
 # svn & cvs
 .svn
 CVS
+
+*.pyc
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/workspace.xml
